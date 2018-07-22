@@ -1,0 +1,13 @@
+####################################################
+
+http://www.flickr.com/services/api/keys/apply
+felipe.nascimento0204@yahoo.com
+
+App: curso_scala
+Chave:
+904e15bb89efee67a6bbbcdabaa8ac03
+Segredo:
+dfe05c3a3b994fdb
+
+
+####################################################

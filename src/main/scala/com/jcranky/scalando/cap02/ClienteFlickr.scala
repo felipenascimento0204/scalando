@@ -1,7 +1,13 @@
 package com.jcranky.scalando.cap02
 
+import java.util.Properties
+
 object ClienteFlickr extends App {
-  val apiKey = "sua-api-key"
+
+  val props = new Properties()
+  props.load(getClass.getClassLoader.getResourceAsStream("cap02/config.properties"))
+
+  val apiKey = props.getProperty("flickr.api.key")
   val method = "flickr.photos.search"
   val tags = "scala"
 
